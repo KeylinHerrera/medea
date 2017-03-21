@@ -1,9 +1,13 @@
 .more {
     color: $white;
-    padding: 3% 0;
+    padding: 2% 0;
     text-align: center;
     text-transform: uppercase;
     
+    @media (max-height: 680px){
+        padding: 0;
+    }
+
     h1 {
         font-size: 60px;
     }

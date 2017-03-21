@@ -74,9 +74,12 @@ section {
 
 .more {
   color: #FFFFFF;
-  padding: 3% 0;
+  padding: 2% 0;
   text-align: center;
   text-transform: uppercase; }
+  @media (max-height: 680px) {
+    .more {
+      padding: 0; } }
   .more h1 {
     font-size: 60px; }
   .more h3 {
@@ -108,9 +111,14 @@ section {
 
 .teaser {
   background-color: #000; }
+  .teaser iframe {
+    height: 100%;
+    width: 100%; }
   .teaser .teaser-video {
+    height: 70%;
     margin-top: 30px;
-    text-align: center; }
+    text-align: center;
+    width: 90%; }
 
 .synopsis {
   background-image: url("../img/3.jpg");
@@ -118,15 +126,15 @@ section {
   .synopsis article {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
-    height: 65.5%;
+    height: 64%;
     padding: 2% 3%;
     width: 50%; }
   .synopsis h2 {
-    padding: 25px 0 100px;
+    padding: 2% 0 10%;
     font-size: 40px;
     text-align: center; }
   .synopsis p {
-    font-size: 24px; }
+    font-size: 18px; }
   .synopsis .more {
     margin-bottom: 10%; }
 
