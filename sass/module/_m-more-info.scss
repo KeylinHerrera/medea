@@ -1,0 +1,53 @@
+.more {
+    color: white;
+    padding: 2% 0;
+    text-align: center;
+    text-transform: uppercase;
+    
+    @media (max-height: 680px){
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    span {
+        font-size: 18px;
+        margin-left:5px;
+    }
+
+    button {
+        background-color: black;
+        border: solid 3px white;
+        color: white;
+        cursor: pointer;
+        font-family: $font-medea;
+        font-size: 14px;
+        padding: 10px 0;
+        text-align: center;
+        text-transform: uppercase;
+        min-width: 10%;
+
+        &:first-child {
+            margin-right: 1%;
+        }
+
+        &:last-child {
+            margin-left: 1%;
+        }
+
+        &:hover {
+            background-color: white;        
+            color: black;        
+        }
+    }
+}
+
+.button {
+    padding: 3% 0;
+}

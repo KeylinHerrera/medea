@@ -1,0 +1,18 @@
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.opacity {
+    background-color: rgba(0, 0, 0, 0.6);
+    left: 0;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 555;
+}

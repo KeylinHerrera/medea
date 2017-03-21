@@ -1,0 +1,27 @@
+.banner {
+    background-color: #000;
+    background-size: cover;      
+    box-sizing: border-box;
+    filter: brightness(50%);    
+    float: left;
+    height: 100%;
+    transition: filter .8s ease-in;    
+    width: 33.33vw;
+
+    &:hover {
+        filter: brightness(100%);
+        opacity: 1.0;
+    }  
+}
+
+.banner[data="img1"] {
+    background-image: url("../img/1.jpg");
+}
+
+.banner[data="img2"] {
+    background-image: url("../img/2.jpg");
+}
+
+.banner[data="img3"] {
+    background-image: url("../img/3.jpg");
+}
