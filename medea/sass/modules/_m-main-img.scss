@@ -1,0 +1,12 @@
+.mainImg img {
+    float: left;
+    filter: brightness(50%);
+    margin-bottom: 40px;
+    transition: filter .8s ease-in;
+    width: 33.33%;
+
+    &:hover {
+        filter: brightness(100%);
+        opacity: 1.0;
+    }
+}

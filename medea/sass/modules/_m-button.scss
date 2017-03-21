@@ -1,0 +1,15 @@
+.button {
+    padding: 50px;
+}
+
+.more button {
+    background-color: $dark-black;
+    border: solid 1px $white;
+    color: white;
+    font-family: $font-medea;
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 15%;
+}
