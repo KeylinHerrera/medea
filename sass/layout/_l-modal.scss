@@ -1,0 +1,21 @@
+.modal {
+    box-sizing: border-box;
+    height: 90vh;
+    left: 50%;       
+    padding: 1% 2%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;      
+    z-index: 999;
+
+    img {
+        cursor: pointer;
+        position: absolute;
+        width: 80px;
+    }
+
+    .more {
+        padding: 0;
+    }
+}

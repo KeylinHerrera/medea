@@ -1,0 +1,24 @@
+.synopsis {
+    background-image: url("../img/3.jpg");
+    background-size: cover;
+
+    article {
+        background-color: rgba(0,0,0,0.5);
+        color:#fff;
+        height: 65.5%;        
+        padding: 2% 3%;
+        width: 50%;       
+    }
+    h2 {
+        padding: 25px 0 100px;
+        font-size: 40px;
+        text-align: center;                
+    }
+    p {
+        font-size: 24px;
+    }
+
+    .more {
+        margin-bottom: 10%;
+    }
+}

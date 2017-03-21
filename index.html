@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="full-wrapper">
+            <!--Start Main-->
+            <main>
+                <section class="wrapper">
+                    <div data="img1" class="banner">
+                    </div>
+                    <div data="img2" class="banner">
+                    </div>
+                    <div data="img3" class="banner">
+                    </div>
+                </section>
+
+                <section class="more wrapper">
+                    <h1>Medea</h1>
+                    <h3>Una película de<span>Alexandra Latishev</span></h3>
+                    <div class="button">
+                        <button id="btnSynopsis">Sinopsis</button>
+                        <button id="btnTeaser">Ver Teaser</button>
+                    </div>
+                </section>
+
+                <section class="wrapper">
+                    <div data="img1" class="banner">
+                    </div>
+                    <div data="img2" class="banner">
+                    </div>
+                    <div data="img3" class="banner">
+                    </div>
+                </section>
+
+                <!-- Opacity for the modals-->
+                <div class="opacity hidden"></div>
+                
+                <!-- Modal of the teaser of the movie -->
+                <section class="modal teaser hidden" id="teaser">
+                    <img src="img/btn-teaser.png" class="imgBehind" alt="Button to go before of the teaser">                   
+                    <section class="more">
+                        <h1>Medea</h1>
+                        <h3>Una película de<span>Alexandra Latishev</span></h3>
+                    </section>
+                    <div class="teaser-video">
+                        <iframe width="940" height="695" src="https://www.youtube.com/embed/_9UeVB0Ytw8" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <!-- Modal of the synopsis of the movie -->
+                <section class="modal synopsis hidden" id="synopsis">
+                    <img src="img/btn-teaser.png" class="imgBehind" alt="Button to go before of the synopsis">                   
+                    <section class="more">
+                        <h1>Medea</h1>
+                        <h3>Una película de<span>Alexandra Latishev</span></h3>
+                    </section>
+                    <article>
+                        <h2>Sipnosis</h2>
+                        <p>La vida de María José transcurre entre la universidad, sus siempre distantes padres, el entrenamiento de rugby y sus aventuras con su mejor amigo Carlos. Emocionalmente desconectada de su entorno, un día se encuentra con Javier y trata de iniciar una relación con él. Pero sus esfuerzos por llevar una vida normal son en vano. María José carga con un secreto: un embarazo que todo el mundo se niega a ver.</p>
+                    </article>
+                </section>
+            </main>
+            <!--End Main-->
+
+        </div>
+        
+        <script src="js/main.js"></script>                
+    </body>
+</html>

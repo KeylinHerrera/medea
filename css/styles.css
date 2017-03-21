@@ -1,0 +1,133 @@
+* {
+  margin: 0 auto;
+  padding: 0; }
+
+body {
+  background-color: #000;
+  font-family: "Raleway Dots", cursive; }
+
+section {
+  box-sizing: border-box; }
+
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+.hidden {
+  display: none; }
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0.6);
+  left: 0;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 555; }
+
+.full-wrapper {
+  height: 100vh;
+  width: 100vw; }
+
+.wrapper {
+  height: 33.33vh;
+  width: 100vw; }
+
+.modal {
+  box-sizing: border-box;
+  height: 90vh;
+  left: 50%;
+  padding: 1% 2%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  z-index: 999; }
+  .modal img {
+    cursor: pointer;
+    position: absolute;
+    width: 80px; }
+  .modal .more {
+    padding: 0; }
+
+.banner {
+  background-color: #000;
+  background-size: cover;
+  box-sizing: border-box;
+  filter: brightness(50%);
+  float: left;
+  height: 100%;
+  transition: filter .8s ease-in;
+  width: 33.33vw; }
+  .banner:hover {
+    filter: brightness(100%);
+    opacity: 1.0; }
+
+.banner[data="img1"] {
+  background-image: url("../img/1.jpg"); }
+
+.banner[data="img2"] {
+  background-image: url("../img/2.jpg"); }
+
+.banner[data="img3"] {
+  background-image: url("../img/3.jpg"); }
+
+.more {
+  color: #FFFFFF;
+  padding: 3% 0;
+  text-align: center;
+  text-transform: uppercase; }
+  .more h1 {
+    font-size: 60px; }
+  .more h3 {
+    font-size: 12px; }
+  .more span {
+    font-size: 18px;
+    margin-left: 5px; }
+  .more button {
+    background-color: #000000;
+    border: solid 3px #FFFFFF;
+    color: white;
+    cursor: pointer;
+    font-family: "Raleway Dots", cursive;
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 10%; }
+    .more button:first-child {
+      margin-right: 1%; }
+    .more button:last-child {
+      margin-left: 1%; }
+    .more button:hover {
+      background-color: #FFFFFF;
+      color: #000000; }
+
+.button {
+  padding: 3% 0; }
+
+.teaser {
+  background-color: #000; }
+  .teaser .teaser-video {
+    margin-top: 30px;
+    text-align: center; }
+
+.synopsis {
+  background-image: url("../img/3.jpg");
+  background-size: cover; }
+  .synopsis article {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    height: 65.5%;
+    padding: 2% 3%;
+    width: 50%; }
+  .synopsis h2 {
+    padding: 25px 0 100px;
+    font-size: 40px;
+    text-align: center; }
+  .synopsis p {
+    font-size: 24px; }
+  .synopsis .more {
+    margin-bottom: 10%; }
+
+/*# sourceMappingURL=styles.css.map */
