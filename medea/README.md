@@ -1,2 +1,0 @@
-# medea
-Web Site: Medea
