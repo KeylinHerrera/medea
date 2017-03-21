@@ -46,7 +46,7 @@ section {
   .modal img {
     cursor: pointer;
     position: absolute;
-    width: 80px; }
+    width: 60px; }
   .modal .more {
     padding: 0; }
 
@@ -134,8 +134,21 @@ section {
     font-size: 40px;
     text-align: center; }
   .synopsis p {
-    font-size: 18px; }
+    font-size: 20px; }
   .synopsis .more {
     margin-bottom: 10%; }
+
+.share {
+  background-color: #4D4D4D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  transform: rotate(270deg);
+  position: fixed;
+  right: -30px;
+  top: 50%; }
 
 /*# sourceMappingURL=styles.css.map */
