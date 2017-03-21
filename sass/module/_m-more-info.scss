@@ -1,5 +1,5 @@
 .more {
-    color: $white;
+    color: white;
     padding: 2% 0;
     text-align: center;
     text-transform: uppercase;
@@ -22,8 +22,8 @@
     }
 
     button {
-        background-color: $dark-black;
-        border: solid 3px $white;
+        background-color: black;
+        border: solid 3px white;
         color: white;
         cursor: pointer;
         font-family: $font-medea;
@@ -42,8 +42,8 @@
         }
 
         &:hover {
-            background-color: $white;        
-            color: $dark-black;        
+            background-color: white;        
+            color: black;        
         }
     }
 }

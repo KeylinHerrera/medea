@@ -73,7 +73,7 @@ section {
   background-image: url("../img/3.jpg"); }
 
 .more {
-  color: #FFFFFF;
+  color: white;
   padding: 2% 0;
   text-align: center;
   text-transform: uppercase; }
@@ -88,8 +88,8 @@ section {
     font-size: 18px;
     margin-left: 5px; }
   .more button {
-    background-color: #000000;
-    border: solid 3px #FFFFFF;
+    background-color: black;
+    border: solid 3px white;
     color: white;
     cursor: pointer;
     font-family: "Raleway Dots", cursive;
@@ -103,8 +103,8 @@ section {
     .more button:last-child {
       margin-left: 1%; }
     .more button:hover {
-      background-color: #FFFFFF;
-      color: #000000; }
+      background-color: white;
+      color: black; }
 
 .button {
   padding: 3% 0; }
