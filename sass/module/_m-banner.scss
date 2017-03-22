@@ -16,12 +16,24 @@
 
 .banner[data="img1"] {
     background-image: url("../img/1.jpg");
+
+    @media (max-width: "1024px"){
+        width: 50vw;
+    }
 }
 
 .banner[data="img2"] {
     background-image: url("../img/2.jpg");
+
+    @media (max-width: "1024px"){
+        width: 50vw;
+    }
 }
 
 .banner[data="img3"] {
     background-image: url("../img/3.jpg");
+
+    @media (max-width: "1024px"){
+        display: none;
+    }
 }

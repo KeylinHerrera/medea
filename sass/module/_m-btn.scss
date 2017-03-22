@@ -1,0 +1,36 @@
+.btn-cta {
+    padding: 3% 0;
+
+    button {
+        background-color: black;
+        border: solid 3px white;
+        color: white;
+        cursor: pointer;
+        font-family: $font-medea;
+        font-size: 14px;
+        padding: 1%;
+        text-align: center;
+        text-transform: uppercase;
+        min-width: 10%;
+
+        @media (max-width: "1024px"){
+            display: block;
+            font-size: 24px;
+            margin: 4% auto 0 !important;
+            padding: 1.5%;
+        }
+
+        &:first-child {
+            margin-right: 1%;
+        }
+
+        &:last-child {
+            margin-left: 1%;
+        }
+
+        &:hover {
+            background-color: white;        
+            color: black;        
+        }
+    }
+}

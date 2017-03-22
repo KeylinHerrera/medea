@@ -65,12 +65,21 @@ section {
 
 .banner[data="img1"] {
   background-image: url("../img/1.jpg"); }
+  @media (max-width: 1024px) {
+    .banner[data="img1"] {
+      width: 50vw; } }
 
 .banner[data="img2"] {
   background-image: url("../img/2.jpg"); }
+  @media (max-width: 1024px) {
+    .banner[data="img2"] {
+      width: 50vw; } }
 
 .banner[data="img3"] {
   background-image: url("../img/3.jpg"); }
+  @media (max-width: 1024px) {
+    .banner[data="img3"] {
+      display: none; } }
 
 .more {
   color: white;
@@ -80,34 +89,49 @@ section {
   @media (max-height: 680px) {
     .more {
       padding: 0; } }
+  @media (max-width: 1024px) {
+    .more {
+      padding: 5% 0; } }
   .more h1 {
     font-size: 60px; }
+    @media (max-width: 1024px) {
+      .more h1 {
+        font-size: 80px; } }
   .more h3 {
     font-size: 12px; }
+    @media (max-width: 1024px) {
+      .more h3 {
+        font-size: 32px; } }
   .more span {
     font-size: 18px;
     margin-left: 5px; }
-  .more button {
+
+.btn-cta {
+  padding: 3% 0; }
+  .btn-cta button {
     background-color: black;
     border: solid 3px white;
     color: white;
     cursor: pointer;
     font-family: "Raleway Dots", cursive;
     font-size: 14px;
-    padding: 10px 0;
+    padding: 1%;
     text-align: center;
     text-transform: uppercase;
     min-width: 10%; }
-    .more button:first-child {
+    @media (max-width: 1024px) {
+      .btn-cta button {
+        display: block;
+        font-size: 24px;
+        margin: 4% auto 0 !important;
+        padding: 1.5%; } }
+    .btn-cta button:first-child {
       margin-right: 1%; }
-    .more button:last-child {
+    .btn-cta button:last-child {
       margin-left: 1%; }
-    .more button:hover {
+    .btn-cta button:hover {
       background-color: white;
       color: black; }
-
-.button {
-  padding: 3% 0; }
 
 .teaser {
   background-color: #000; }
@@ -126,15 +150,16 @@ section {
   .synopsis article {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
-    height: 64%;
-    padding: 2% 3%;
+    height: 55vh;
+    padding: 2% 0;
     width: 50%; }
   .synopsis h2 {
     padding: 2% 0 10%;
     font-size: 40px;
     text-align: center; }
   .synopsis p {
-    font-size: 20px; }
+    font-size: 22px;
+    width: 60%; }
   .synopsis .more {
     margin-bottom: 10%; }
 
