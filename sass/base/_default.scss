@@ -11,3 +11,9 @@ body {
 section {
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: "Gotham";
+    font-weight: normal;
+    src: url("../font/Gotham Light Regular.otf");
+}

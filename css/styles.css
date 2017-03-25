@@ -4,11 +4,15 @@
 
 body {
   background-color: #000;
-  font-family: "Raleway Dots", cursive; }
+  font-family: "Gotham", cursive; }
 
 section {
   box-sizing: border-box; }
 
+@font-face {
+  font-family: "Gotham";
+  font-weight: normal;
+  src: url("../font/Gotham Light Regular.otf"); }
 .clearfix {
   overflow: auto;
   zoom: 1; }
@@ -113,18 +117,12 @@ section {
     border: solid 3px white;
     color: white;
     cursor: pointer;
-    font-family: "Raleway Dots", cursive;
+    font-family: "Gotham", cursive;
     font-size: 14px;
     padding: 1%;
     text-align: center;
     text-transform: uppercase;
     min-width: 10%; }
-    @media (max-width: 1024px) {
-      .btn-cta button {
-        display: block;
-        font-size: 24px;
-        margin: 4% auto 0 !important;
-        padding: 1.5%; } }
     .btn-cta button:first-child {
       margin-right: 1%; }
     .btn-cta button:last-child {
@@ -132,6 +130,12 @@ section {
     .btn-cta button:hover {
       background-color: white;
       color: black; }
+    @media (max-width: 1024px) {
+      .btn-cta button {
+        display: block;
+        font-size: 24px;
+        margin: 4% auto 0 !important;
+        padding: 1.5%; } }
 
 .teaser {
   background-color: #000; }
@@ -162,6 +166,18 @@ section {
     width: 60%; }
   .synopsis .more {
     margin-bottom: 10%; }
+  @media (max-width: 1024px) {
+    .synopsis article {
+      width: 100%; }
+    .synopsis h2 {
+      font-size: 48px; }
+    .synopsis p {
+      font-size: 30px; } }
+  @media (max-width: 480px) {
+    .synopsis h2 {
+      font-size: 53px; }
+    .synopsis p {
+      font-size: 35px; } }
 
 .share {
   background-color: #4D4D4D;
@@ -171,9 +187,12 @@ section {
   text-align: center;
   text-decoration: none;
   font-size: 14px;
-  transform: rotate(270deg);
+  transform: translateY(-50%) rotate(270deg);
   position: fixed;
   right: -30px;
   top: 50%; }
+  @media (max-width: 1024px) {
+    .share {
+      font-size: 25px; } }
 
 /*# sourceMappingURL=styles.css.map */

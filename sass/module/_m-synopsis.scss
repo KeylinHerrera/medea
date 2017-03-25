@@ -24,4 +24,26 @@
     .more {
         margin-bottom: 10%;
     }
+
+    @media (max-width: "1024px"){
+        article {
+            width: 100%;     
+        } 
+
+        h2 {
+            font-size: 48px;                  
+        } 
+        p {
+            font-size: 30px;
+        }  
+    }
+
+    @media (max-width: "480px"){
+        h2 {
+            font-size: 53px;                  
+        } 
+        p {
+            font-size: 35px;
+        }             
+    }
 }
