@@ -6,8 +6,12 @@
     text-align: center;
     text-decoration: none;
     font-size: 14px;
-    transform:rotate(270deg);
+    transform:translateY(-50%) rotate(270deg);
     position: fixed;
     right: -30px;
     top: 50%;
+
+    @media (max-width: "1024px"){
+        font-size: 25px;
+    }
 }
