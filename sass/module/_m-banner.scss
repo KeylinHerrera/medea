@@ -37,3 +37,27 @@
         display: none;
     }
 }
+
+.banner[data="img4"] {
+    background-image: url("../img/4.jpg");
+
+    @media (max-width: "1024px"){
+        width: 50vw;
+    }
+}
+
+.banner[data="img5"] {
+    background-image: url("../img/5.jpg");
+
+    @media (max-width: "1024px"){
+        width: 50vw;
+    }
+}
+
+.banner[data="img6"] {
+    background-image: url("../img/6.jpg");
+
+    @media (max-width: "1024px"){
+        display: none;
+    }
+}

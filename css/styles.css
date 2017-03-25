@@ -85,6 +85,24 @@ section {
     .banner[data="img3"] {
       display: none; } }
 
+.banner[data="img4"] {
+  background-image: url("../img/4.jpg"); }
+  @media (max-width: 1024px) {
+    .banner[data="img4"] {
+      width: 50vw; } }
+
+.banner[data="img5"] {
+  background-image: url("../img/5.jpg"); }
+  @media (max-width: 1024px) {
+    .banner[data="img5"] {
+      width: 50vw; } }
+
+.banner[data="img6"] {
+  background-image: url("../img/6.jpg"); }
+  @media (max-width: 1024px) {
+    .banner[data="img6"] {
+      display: none; } }
+
 .more {
   color: white;
   padding: 2% 0;
