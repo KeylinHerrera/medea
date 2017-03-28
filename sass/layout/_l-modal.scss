@@ -19,4 +19,7 @@
         padding: 0;
     }
 
+    @media (max-width: "1024px") and (orientation: landscape) {
+        height: 100vh;
+    }  
 }

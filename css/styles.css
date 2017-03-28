@@ -32,10 +32,16 @@ section {
 .full-wrapper {
   height: 100vh;
   width: 100vw; }
+  @media (max-width: 1024px) and (orientation: landscape) {
+    .full-wrapper {
+      background-image: url("../img/3.jpg"); } }
 
 .wrapper {
   height: 33.33vh;
   width: 100vw; }
+  @media (max-width: 1024px) and (orientation: landscape) {
+    .wrapper {
+      height: 0; } }
 
 .modal {
   box-sizing: border-box;
@@ -53,6 +59,9 @@ section {
     width: 60px; }
   .modal .more {
     padding: 0; }
+  @media (max-width: 1024px) and (orientation: landscape) {
+    .modal {
+      height: 100vh; } }
 
 .banner {
   background-color: #000;
@@ -175,27 +184,43 @@ section {
     height: 55vh;
     padding: 2% 0;
     width: 50%; }
+    @media (max-width: 1024px) {
+      .synopsis article {
+        width: 100%; } }
+    @media (max-width: 1024px) and (orientation: landscape) {
+      .synopsis article {
+        height: 74%;
+        padding: 0; } }
   .synopsis h2 {
     padding: 2% 0 10%;
     font-size: 40px;
     text-align: center; }
+    @media (max-width: 480px) {
+      .synopsis h2 {
+        font-size: 53px; } }
+    @media (max-width: 1024px) {
+      .synopsis h2 {
+        font-size: 48px; } }
+    @media (max-width: 1024px) and (orientation: landscape) {
+      .synopsis h2 {
+        padding: 0 0 2%; } }
   .synopsis p {
     font-size: 22px;
     width: 60%; }
+    @media (max-width: 480px) {
+      .synopsis p {
+        font-size: 35px; } }
+    @media (max-width: 1024px) {
+      .synopsis p {
+        font-size: 30px; } }
+    @media (max-width: 1024px) and (orientation: landscape) {
+      .synopsis p {
+        width: 100%; } }
   .synopsis .more {
     margin-bottom: 10%; }
-  @media (max-width: 1024px) {
-    .synopsis article {
-      width: 100%; }
-    .synopsis h2 {
-      font-size: 48px; }
-    .synopsis p {
-      font-size: 30px; } }
-  @media (max-width: 480px) {
-    .synopsis h2 {
-      font-size: 53px; }
-    .synopsis p {
-      font-size: 35px; } }
+    @media (max-width: 1024px) and (orientation: landscape) {
+      .synopsis .more {
+        margin-bottom: 4%; } }
 
 .share {
   background-color: #4D4D4D;

@@ -7,43 +7,55 @@
         color:#fff;
         height: 55vh;        
         padding: 2% 0;
-        width: 50%;       
+        width: 50%; 
+
+        @media (max-width: "1024px") {
+            width: 100%;
+        }   
+        @media (max-width: "1024px") and (orientation: landscape) {
+            height: 74%;
+            padding: 0;
+        }   
     }
 
     h2 {
         padding: 2% 0 10%;
         font-size: 40px;
-        text-align: center;                
+        text-align: center;  
+
+        @media (max-width: "480px"){
+            font-size: 53px;           
+        }
+        @media (max-width: "1024px") {
+            font-size: 48px;
+        }       
+        @media (max-width: "1024px") and (orientation: landscape) {
+            padding: 0 0 2%; 
+        }       
     }
 
     p {
         font-size: 22px;
         width: 60%;
+
+        @media (max-width: "480px") {
+            font-size: 35px;          
+        }
+        @media (max-width: "1024px") {
+            font-size: 30px;
+        }
+        @media (max-width: "1024px") and (orientation: landscape) {
+            width: 100%;
+        }
     }
 
     .more {
         margin-bottom: 10%;
-    }
 
-    @media (max-width: "1024px"){
-        article {
-            width: 100%;     
-        } 
-
-        h2 {
-            font-size: 48px;                  
-        } 
-        p {
-            font-size: 30px;
-        }  
-    }
-
-    @media (max-width: "480px"){
-        h2 {
-            font-size: 53px;                  
-        } 
-        p {
-            font-size: 35px;
-        }             
+        @media (max-width: "1024px") and (orientation: landscape) {
+            margin-bottom: 4%;
+        }
     }
 }
+
+    
