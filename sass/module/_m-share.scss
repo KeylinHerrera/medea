@@ -6,7 +6,9 @@
     text-align: center;
     text-decoration: none;
     font-size: 14px;
-    transform:translateY(-50%) rotate(270deg);
+    -webkit-transform: translateY(-50%) rotate(270deg);
+    -ms-transform: translateY(-50%) rotate(270deg);
+    transform: translateY(-50%) rotate(270deg);
     position: fixed;
     right: -30px;
     top: 50%;

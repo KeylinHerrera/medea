@@ -34,7 +34,7 @@ section {
   width: 100vw; }
   @media (max-width: 1024px) and (orientation: landscape) {
     .full-wrapper {
-      background-image: url("../img/3.jpg"); } }
+      background-image: url("../img/6.jpg"); } }
 
 .wrapper {
   height: 33.33vh;
@@ -50,6 +50,8 @@ section {
   padding: 1% 2%;
   position: absolute;
   top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 80%;
   z-index: 999; }
@@ -132,16 +134,19 @@ section {
     font-size: 12px; }
     @media (max-width: 1024px) {
       .more h3 {
-        font-size: 32px; } }
+        font-size: 16px; } }
   .more span {
     font-size: 18px;
     margin-left: 5px; }
+    @media (max-width: 1024px) {
+      .more span {
+        font-size: 28px; } }
 
 .btn-cta {
   padding: 3% 0; }
   .btn-cta button {
     background-color: black;
-    border: solid 3px white;
+    border: solid 2px white;
     color: white;
     cursor: pointer;
     font-family: "Gotham", cursive;
@@ -230,6 +235,8 @@ section {
   text-align: center;
   text-decoration: none;
   font-size: 14px;
+  -webkit-transform: translateY(-50%) rotate(270deg);
+  -ms-transform: translateY(-50%) rotate(270deg);
   transform: translateY(-50%) rotate(270deg);
   position: fixed;
   right: -30px;
