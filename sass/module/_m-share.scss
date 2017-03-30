@@ -12,7 +12,8 @@
     position: fixed;
     right: -30px;
     top: 50%;
-
+    z-index: 999;
+    
     @media (max-width: "1024px"){
         font-size: 25px;
     }

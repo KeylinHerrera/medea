@@ -1,63 +1,68 @@
 .banner {
-    background-color: #000;
-    background-size: cover;      
+    background-color: #000;    
     box-sizing: border-box;
-    filter: brightness(50%);    
-    float: left;
-    height: 100%;
-    transition: filter .8s ease-in;    
-    width: 33.33vw;
+    list-style: none;    
+    width: 100%;
 
-    &:hover {
+    li {
+        background-color: #000;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        filter: brightness(50%);        
+        float: left;
+        height: 0px;
+        overflow: hidden;
+        padding-top: 17%;
+        position: relative;        
+        transition: filter .8s ease-in;        
+        width: 33.33%;
+
+        
+
+         @media (min-width: '320px') {
+            padding-top: 68%;            
+        }
+
+        @media (min-width: '320px') and (orientation: "landscape"){
+            padding-top: 40%;            
+        }
+
+        @media (min-width: '480px') {
+            padding-top: 46%;
+            width: 50%;
+        }
+
+        @media (min-width: '1024px') {
+            padding-top: 15%;
+            width: 33.33%;
+        }
+
+        &:nth-child(3) {
+            @media (max-width: '1024px') {
+                display: none;                
+            } 
+        }
+    }
+    img {
+        bottom: 0px;        
+        display: block; //Para que tome todo el espacio desponible
+        left: 0px;        
+        margin: auto;        
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        right: 0px;        
+        top: 0px;
+        width: 60%;                         
+
+        @media (max-width: '1024px') {
+            width: 90%;
+        }
+    }
+
+    li:hover {
         filter: brightness(100%);
         opacity: 1.0;
     }  
 }
 
-.banner[data="img1"] {
-    background-image: url("../img/1.jpg");
-
-    @media (max-width: "1024px"){
-        width: 50vw;
-    }
-}
-
-.banner[data="img2"] {
-    background-image: url("../img/2.jpg");
-
-    @media (max-width: "1024px"){
-        width: 50vw;
-    }
-}
-
-.banner[data="img3"] {
-    background-image: url("../img/3.jpg");
-
-    @media (max-width: "1024px"){
-        display: none;
-    }
-}
-
-.banner[data="img4"] {
-    background-image: url("../img/4.jpg");
-
-    @media (max-width: "1024px"){
-        width: 50vw;
-    }
-}
-
-.banner[data="img5"] {
-    background-image: url("../img/5.jpg");
-
-    @media (max-width: "1024px"){
-        width: 50vw;
-    }
-}
-
-.banner[data="img6"] {
-    background-image: url("../img/6.jpg");
-
-    @media (max-width: "1024px"){
-        display: none;
-    }
-}

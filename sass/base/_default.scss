@@ -8,9 +8,10 @@ body {
     font-family: $font-medea;
 }
 
-section {
+section, div, article {
     box-sizing: border-box;
 }
+
 
 @font-face {
     font-family: "Gotham";
