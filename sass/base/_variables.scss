@@ -1,5 +1,11 @@
-//colors
+//Colors
 $medium-gray: #4D4D4D;
 
-//fonts
+//Fonts
+@font-face {
+    font-family: "Gotham";
+    font-weight: normal;
+    src: url("../font/Gotham Light Regular.otf");
+}
+
 $font-medea: 'Gotham', cursive;

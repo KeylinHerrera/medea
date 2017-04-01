@@ -5,15 +5,11 @@
     article {
         background-color: rgba(0,0,0,0.5);
         color:#fff;
-        height: 55vh;        
+        height: 100%;        
         padding: 2% 0;
-        width: 50%; 
-
-        @media (max-width: "1024px") {
-            width: 100%;
-        }   
-        @media (max-width: "1024px") and (orientation: landscape) {
-            height: 74%;
+        width: 100%;        
+   
+        @media (orientation: landscape) {
             padding: 0 3%;
         }   
     }
@@ -35,25 +31,28 @@
     }
 
     p {
-        font-size: 22px;
-        width: 60%;
+        font-size: 30px;      
+        width: 69%;  
 
-        @media (max-width: "480px") {
-            font-size: 35px;          
+        @media (min-width: "1024px") {
+            font-size: 22px;
         }
-        @media (max-width: "1024px") {
-            font-size: 30px;
-        }
-        @media (max-width: "1024px") and (orientation: landscape) {
+        @media (orientation: landscape) {
             width: 100%;
+        }
+        @media (min-width: "1024px") and (orientation: landscape) {
+            width: 55%;
         }
     }
 
     .more {
         margin-bottom: 10%;
 
-        @media (max-width: "1024px") and (orientation: landscape) {
+        @media (orientation: landscape) {
             margin-bottom: 4%;
+        }
+        @media (min-width: "1024px") {
+            margin-bottom: 15%;
         }
     }
 }
