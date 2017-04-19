@@ -32,7 +32,7 @@
 
     p {
         font-size: 30px;      
-        width: 69%;  
+        width: 100%;  
 
         @media (min-width: "1024px") {
             font-size: 22px;
@@ -41,7 +41,7 @@
             width: 100%;
         }
         @media (min-width: "1024px") and (orientation: landscape) {
-            width: 55%;
+            width: 70%;
         }
     }
 
