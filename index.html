@@ -5,7 +5,6 @@
         <title>Medea</title>
         <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet">
-        <script src="js/jquery.min.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -48,7 +47,7 @@
                         <h3>Una película de<span>Alexandra Latishev</span></h3>
                     </section>
                     <div class="teaser-video">
-                        <iframe src="https://www.youtube.com/embed/_9UeVB0Ytw8?enablejsapi=1&version=3" frameborder="0" allowfullscreen></iframe>
+                        <div id="teaserYoutube"></div>
                     </div>
                 </section>
 
@@ -66,9 +65,10 @@
                 </section>
             </main>
             <!--End Main-->
-
         </div>
-        
-        <script src="js/main.js"></script>                
+        <button id="test">Test</button>
+        <script src="js/jquery.min.js"></script>        
+        <script src="js/main.js"></script> 
+        <script src="js/youtubeAPI.js"></script>                                       
     </body>
 </html>
