@@ -12,7 +12,6 @@ function onYouTubeIframeAPIReady() {
 player = new YT.Player('teaserYoutube', {
     height: '100%',
     width: '100%',
-    videoId: '_9UeVB0Ytw8',
     events: {
         'onReady': onPlayerReady,
     }
@@ -26,5 +25,8 @@ function onPlayerReady(event) {
     });
     $('.opacity').on('click',function(){
         event.target.pauseVideo();
+    });
+    $('#btnTeaser').on('click', function(){
+        player.loadVideoById("_9UeVB0Ytw8");
     });
 }
