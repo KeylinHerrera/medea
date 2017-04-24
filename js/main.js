@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
     // Functions
     // Toggles the visibility of the modals
-    var toggleVisibility = function toggleVisibility() {
+    function toggleVisibility() {
         if(!$('#teaser').hasClass('hidden')) {
             $('.opacity').addClass('hidden');
             $('#teaser').addClass('hidden');            
