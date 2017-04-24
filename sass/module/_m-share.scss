@@ -2,19 +2,20 @@
     background-color: $medium-gray;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 8px 10px;
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 16px;
     -webkit-transform: translateY(-50%) rotate(270deg);
     -ms-transform: translateY(-50%) rotate(270deg);
     transform: translateY(-50%) rotate(270deg);
     position: fixed;
-    right: -30px;
+    right: -18px;
     top: 50%;
     z-index: 999;
-    
-    @media (min-width: "1024px"){
-        font-size: 14px;        
+
+    @media (min-width: 1024px) {
+        padding: 20px 25px;        
+        font-size: 20px;    
     }
 }

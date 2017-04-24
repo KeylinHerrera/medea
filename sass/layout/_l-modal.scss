@@ -8,14 +8,23 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 80%;      
+    width: 100%;      
     z-index: 999;
+
+    @media (min-width: "1024px") {
+        width: 80%;      
+    }
 
     img {
         cursor: pointer;
-        margin-left: 3%;
+        margin-left: 2%;
         position: absolute;
-        width: 60px;
+        width: 40px;
+
+        @media (min-width: "1024px") {
+           margin-left: 3%;
+            width: 60px;  
+        }
     }
 
     .more {

@@ -45,13 +45,20 @@ p {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 80%;
+  width: 100%;
   z-index: 999; }
+  @media (min-width: 1024px) {
+    .modal {
+      width: 80%; } }
   .modal img {
     cursor: pointer;
-    margin-left: 3%;
+    margin-left: 2%;
     position: absolute;
-    width: 60px; }
+    width: 40px; }
+    @media (min-width: 1024px) {
+      .modal img {
+        margin-left: 3%;
+        width: 60px; } }
   .modal .more {
     padding: 0; }
   @media (max-width: 1024px) and (orientation: landscape) {
@@ -73,7 +80,7 @@ p {
     overflow: hidden;
     position: relative;
     transition: filter .8s ease-in;
-    padding-top: 68%;
+    padding-top: 60%;
     width: 50%; }
     @media (min-width: 1024px) {
       .banner li {
@@ -118,21 +125,18 @@ p {
     .more {
       padding: 0; } }
   .more h1 {
-    font-size: 60px; }
-    @media (max-width: 1024px) {
+    font-size: 44px; }
+    @media (min-width: 1024px) {
       .more h1 {
-        font-size: 80px; } }
+        font-size: 60px; } }
   .more h3 {
     font-size: 12px; }
-    @media (max-width: 1024px) {
-      .more h3 {
-        font-size: 16px; } }
   .more span {
-    font-size: 18px;
+    font-size: 14px;
     margin-left: 5px; }
-    @media (max-width: 1024px) {
+    @media (min-width: 1024px) {
       .more span {
-        font-size: 28px; } }
+        font-size: 24px; } }
 
 .btn-cta {
   padding: 3% 0; }
@@ -143,7 +147,7 @@ p {
     cursor: pointer;
     display: block;
     font-family: "Gotham", cursive;
-    font-size: 24px;
+    font-size: 18px;
     min-width: 10%;
     margin: 4% auto 0;
     padding: 1.5%;
@@ -154,9 +158,9 @@ p {
       color: black; }
     @media (min-width: 1024px) {
       .btn-cta button {
-        font-size: 14px;
-        padding: 1%;
         display: inline;
+        font-size: 24px;
+        padding: 1%;
         margin: 0; }
         .btn-cta button:first-child {
           margin-right: 1%; }
@@ -191,56 +195,58 @@ p {
       .synopsis article {
         padding: 0 3%; } }
   .synopsis h2 {
-    padding: 2% 0 10%;
-    font-size: 40px;
+    padding: 0 0 5%;
+    font-size: 26px;
     text-align: center; }
-    @media (max-width: 480px) {
+    @media (min-width: 1024px) {
       .synopsis h2 {
-        font-size: 53px; } }
-    @media (max-width: 1024px) {
-      .synopsis h2 {
-        font-size: 48px; } }
+        font-size: 40px;
+        padding: 2% 0 10%; } }
     @media (max-width: 1024px) and (orientation: landscape) {
       .synopsis h2 {
         padding: 0 0 2%; } }
   .synopsis p {
-    font-size: 30px;
-    width: 100%; }
+    font-size: 18px;
+    width: 90%; }
     @media (min-width: 1024px) {
       .synopsis p {
-        font-size: 22px; } }
+        font-size: 22px;
+        width: 100%; } }
     @media (orientation: landscape) {
       .synopsis p {
         width: 100%; } }
     @media (min-width: 1024px) and (orientation: landscape) {
       .synopsis p {
-        width: 70%; } }
+        width: 90%; } }
   .synopsis .more {
+    margin-top: 10%;
     margin-bottom: 10%; }
     @media (orientation: landscape) {
       .synopsis .more {
         margin-bottom: 4%; } }
     @media (min-width: 1024px) {
       .synopsis .more {
+        margin-top: 0;
         margin-bottom: 15%; } }
 
 .share {
   background-color: #4D4D4D;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 8px 10px;
   text-align: center;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 16px;
   -webkit-transform: translateY(-50%) rotate(270deg);
   -ms-transform: translateY(-50%) rotate(270deg);
   transform: translateY(-50%) rotate(270deg);
   position: fixed;
-  right: -30px;
+  right: -18px;
   top: 50%;
   z-index: 999; }
   @media (min-width: 1024px) {
     .share {
-      font-size: 14px; } }
+      padding: 20px 25px;
+      font-size: 20px; } }
 
 /*# sourceMappingURL=styles.css.map */

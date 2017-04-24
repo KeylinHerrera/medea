@@ -15,43 +15,44 @@
     }
 
     h2 {
-        padding: 2% 0 10%;
-        font-size: 40px;
+        padding: 0 0 5%;
+        font-size: 26px;
         text-align: center;  
 
-        @media (max-width: "480px"){
-            font-size: 53px;           
+        @media (min-width: "1024px") {
+            font-size: 40px;   
+            padding: 2% 0 10%;            
         }
-        @media (max-width: "1024px") {
-            font-size: 48px;
-        }       
         @media (max-width: "1024px") and (orientation: landscape) {
             padding: 0 0 2%; 
         }       
     }
 
     p {
-        font-size: 30px;      
-        width: 100%;  
-
+        font-size: 18px;      
+        width: 90%;  
+        
         @media (min-width: "1024px") {
-            font-size: 22px;
+            font-size: 22px;  
+            width: 100%;                         
         }
         @media (orientation: landscape) {
             width: 100%;
         }
         @media (min-width: "1024px") and (orientation: landscape) {
-            width: 70%;
+            width: 90%;
         }
     }
 
     .more {
+        margin-top: 10%;
         margin-bottom: 10%;
 
         @media (orientation: landscape) {
             margin-bottom: 4%;
         }
         @media (min-width: "1024px") {
+            margin-top: 0;            
             margin-bottom: 15%;
         }
     }
