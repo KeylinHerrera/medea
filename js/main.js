@@ -14,13 +14,13 @@ jQuery(document).ready(function($) {
 
     // When you click the synopsis button, removes the class hidden of the modal
     $('#btnSynopsis').click(function() {
-        $('.opacity').removeClass('hidden')
+        $('.opacity').removeClass('hidden');
         $('#synopsis').removeClass('hidden');
     });
 
     // When you click the teaser button
     $('#btnTeaser').click(function() {
-        $('.opacity').removeClass('hidden')
+        $('.opacity').removeClass('hidden');
         $('#teaser').removeClass('hidden');
     })
 

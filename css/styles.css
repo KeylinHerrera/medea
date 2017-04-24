@@ -52,8 +52,9 @@ p {
       width: 80%; } }
   .modal img {
     cursor: pointer;
-    margin-left: 2%;
+    margin-right: 2%;
     position: absolute;
+    right: 0;
     width: 40px; }
     @media (min-width: 1024px) {
       .modal img {
